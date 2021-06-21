@@ -32,7 +32,7 @@
             $image->destroy();
         }
     }
-    $directory = "C:/xampp/htdocs/ventus_imtiaz/blur_images_and_pdfs/";
+    $directory = ""; // add images / pdfs directory here
     pdf_to_image($directory);
     blur_image($directory);
 
